@@ -1,0 +1,53 @@
+.thumbnail-top a:first-child {
+  display: none !important;
+}
+#carouselHoverCarousel a{
+  display: block !important;
+}
+.carousel
+{
+  margin-bottom: 0 !important;
+}
+
+#arrow_carousel
+{
+  height: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next
+{
+  position: relative;
+  display: flex;
+}
+
+.carousel-control-prev{
+  bottom: 14em;
+  align-items: center;
+  width: 15%;
+}
+.carousel-control-next{
+  bottom: 15.9em;
+  justify-content: end;
+  width: 15%;
+  margin-left: 85%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+}
+
+.carousel-control-prev-icon
+{
+  background: red no-repeat center center;
+  clip-path: polygon(100% 100%, 100% 0, 0 50%);
+}
+
+.carousel-control-next-icon {
+	background: blue no-repeat center center;
+  clip-path: polygon(0 0, 0 100%, 100% 50%);
+}

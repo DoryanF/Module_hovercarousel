@@ -1,0 +1,14 @@
+.thumbnail-top {
+    position: relative;
+}
+
+.thumbnail-top .second-image {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.thumbnail-top:hover .second-image {
+    display: block;
+}
